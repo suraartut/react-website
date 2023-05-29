@@ -95,7 +95,7 @@ const BannerSlider = () => {
         <SwiperSlide>
           <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[35%] left-[3%]">
             <h2 className="text-white lg:text-4xl text-2xl">
-              Yatırım Danışmanlığı İçin Doğru Yerdesiniz
+              Yatırım Danışmanlığı İçin Doğru Yerdesiniz !
             </h2>
             <div className="mt-10">
               <Link
