@@ -13,7 +13,7 @@ const BannerDiscover = () => {
         </p>
         <Link
           to="/"
-          className="bg-red-600 hover:bg-red-500 text-white py-5 px-12 lg:mx-0 mx-10"
+          className="bg-[#b68f40] hover:bg-[#b68f00] text-white py-5 px-12 lg:mx-0 mx-10"
         >
           Discover
         </Link>

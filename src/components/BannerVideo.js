@@ -1,14 +1,12 @@
 import React from "react";
+import BannerVideo1 from "../Images/banner-video.mp4";
 
 const BannerVideo = () => {
   return (
     <div className="banner-video w-full">
       <div className="w-[100%]">
         <video autoPlay loop muted playsInline className="w-full">
-          <source
-            type="video/mp4"
-            src="https://newreactwebsite.netlify.app/static/media/video.e926b13910c5d32c9341.mp4"
-          />
+          <source type="video/mp4" src={BannerVideo1} />
         </video>
       </div>
     </div>

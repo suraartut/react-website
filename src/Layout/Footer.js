@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className="w-full bg-[#fdc6c6] lg:py-16 py-10 lg:px-0 px-8">
       <div className="lg:flex justify-around">
-        <div>
-          <h3 className="text-red-600 text-2xl font-semibold lg:pb-3">
+        <div className="hoverable">
+          <h3 className="text-[#83bcff] text-2xl font-semibold lg:pb-3">
             Holding
           </h3>
           <ul>
@@ -17,8 +17,8 @@ const Footer = () => {
             <li>Ekibimiz</li>
           </ul>
         </div>
-        <div>
-          <h3 className="text-red-600 text-2xl font-semibold lg:pb-3 lg:mt-0 mt-8">
+        <div className="hoverable">
+          <h3 className="text-[#83bcff] text-2xl font-semibold lg:pb-3 lg:mt-0 mt-8">
             Our Company
           </h3>
           <ul>
@@ -36,8 +36,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <h3 className="text-red-600 text-2xl font-semibold lg:pb-3 lg:mt-0 mt-8">
+        <div className="hoverable">
+          <h3 className="text-[#83bcff] text-2xl font-semibold lg:pb-3 lg:mt-0 mt-8">
             Prdoucts
           </h3>
           <ul className="footer-icons">
@@ -56,7 +56,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className="text-red-600 text-2xl font-semibold lg:pb-3 lg:mt-0 mt-8">
+          <h3 className="text-[#83bcff] text-2xl font-semibold lg:pb-3 lg:mt-0 mt-8">
             Sosyal Medya
           </h3>
           <ul className="flex lg:justify-between lg:gap-0 gap-6">

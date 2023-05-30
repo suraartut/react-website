@@ -19,7 +19,7 @@ const About = () => {
       </div>
       <div className="banner-about lg:p-24 p-6 lg:flex justify-around gap-20">
         <div>
-          <h6 className="text-red-600 text-sm">Hakkımızda</h6>
+          <h6 className="text-[#b68f40] text-sm">Hakkımızda</h6>
           <h2 className="text-4xl">
             Welcome to the Best Business Support Company
           </h2>
@@ -29,13 +29,13 @@ const About = () => {
             credit unions.
           </p>
           <Link to="/">
-            <span className="text-white bg-black py-5 px-8 hover:bg-gray-600">
+            <span className="text-white bg-[#4b5358] py-5 px-8 hover:bg-gray-600">
               Hakkımızda
             </span>
           </Link>
         </div>
         <div className="mt-10">
-          <img src={AboutImage} alt="about-image" />
+          <img src={AboutImage} alt="about-image" height={650} width={650} />
         </div>
       </div>
     </div>

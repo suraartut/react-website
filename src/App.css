@@ -65,8 +65,18 @@ footer div ul li {
   padding-top: 20px;
 }
 
-footer div ul li:hover {
-  color: rgb(220, 38, 38);
+footer .hoverable ul li:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #4b5358;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+footer .hoverable ul li:hover:after {
+  transform: scaleX(1);
+}
+footer .hoverable ul li:after {
+  transform-origin: 0% 50%;
 }
 
 .about-slider {

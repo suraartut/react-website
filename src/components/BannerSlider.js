@@ -1,5 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Slider1 from "../Images/banner-slider1.mp4";
+import Slider2 from "../Images/banner-slider2.jpg";
+import Slider3 from "../Images/banner-slider3.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -33,81 +36,65 @@ const BannerSlider = () => {
         className="mySwiper w-full"
       >
         <SwiperSlide>
-          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[35%] left-[3%]">
+          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[28%] left-[3%]">
             <h2 className="text-white lg:text-4xl text-2xl">
               Yatırım Danışmanlığı İçin Doğru Yerdesiniz
             </h2>
             <div className="mt-10">
               <Link
                 to="/"
-                className="text-[#fdc6c6] bg-[#4b5358] hover:bg-red-500 px-10 py-5"
+                className="text-[#fdc6c6] bg-[#4b5358] px-10 py-5 rounded-2xl"
               >
                 Keşfet
               </Link>
             </div>
           </div>
-          <img
-            src="https://swiperjs.com/demos/images/nature-1.jpg"
-            alt="slider"
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
             className="w-full lg:h-[100vh] h-[60vh] object-cover object-center"
-          />
+          >
+            <source type="video/mp4" src={Slider1} />
+          </video>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[35%] left-[3%]">
+          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[28%] left-[3%]">
             <h2 className="text-white lg:text-4xl text-2xl">
               Yatırım Danışmanlığı İçin Doğru Yerdesiniz
             </h2>
             <div className="mt-10">
               <Link
                 to="/"
-                className="text-[#fdc6c6] bg-[#4b5358] hover:bg-red-500 px-10 py-5"
+                className="text-[#fdc6c6] bg-[#4b5358] px-10 py-5 rounded-2xl"
               >
                 Keşfet
               </Link>
             </div>
           </div>
           <img
-            src="https://swiperjs.com/demos/images/nature-2.jpg"
+            src={Slider2}
             alt="slider"
             className="w-full lg:h-[100vh] h-[60vh] object-cover object-center"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[35%] left-[3%]">
-            <h2 className="text-white lg:text-4xl text-2xl">
+          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[28%] left-[3%]">
+            <h2 className="text-black lg:text-4xl text-2xl bg-[white]">
               Yatırım Danışmanlığı İçin Doğru Yerdesiniz
             </h2>
             <div className="mt-10">
               <Link
                 to="/"
-                className="text-[#fdc6c6] bg-[#4b5358] hover:bg-red-500 px-10 py-5"
+                className="text-[#fdc6c6] bg-[#4b5358] px-10 py-5 rounded-2xl"
               >
                 Keşfet
               </Link>
             </div>
           </div>
           <img
-            src="https://swiperjs.com/demos/images/nature-3.jpg"
-            alt="slider"
-            className="w-full lg:h-[100vh] h-[60vh] object-cover object-center"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[35%] left-[3%]">
-            <h2 className="text-white lg:text-4xl text-2xl">
-              Yatırım Danışmanlığı İçin Doğru Yerdesiniz !
-            </h2>
-            <div className="mt-10">
-              <Link
-                to="/"
-                className="text-[#fdc6c6] bg-[#4b5358] hover:bg-red-500 px-10 py-5"
-              >
-                Keşfet
-              </Link>
-            </div>
-          </div>
-          <img
-            src="https://swiperjs.com/demos/images/nature-4.jpg"
+            src={Slider3}
             alt="slider"
             className="w-full lg:h-[100vh] h-[60vh] object-cover object-center"
           />

@@ -19,7 +19,7 @@ const Header = () => {
       <nav className="w-full lg:flex hidden">
         <li className="flex justify-center items-center pl-7">
           <Link to="/">
-            <GiHamburgerMenu className="text-white w-10 h-10" />
+            <GiHamburgerMenu className="text-[#83bcff] w-10 h-10" />
           </Link>
         </li>
         <div className="p-1 w-[54%] flex justify-end">
@@ -39,7 +39,7 @@ const Header = () => {
       </nav>
       <nav className="w-full lg:hidden py-5 flex flex-col justify-between">
         <GiHamburgerMenu
-          className="w-7 h-7 text-red-600 mx-5"
+          className="w-7 h-7 text-[#83bcff] mx-5"
           onClick={handleClick}
         />
         {showMenu && (

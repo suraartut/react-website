@@ -24,7 +24,7 @@ const Projects = () => {
               <div className="bg-white">
                 <img src={item.image} />
                 <div>
-                  <h2 className="text-red-600 text-center text-3xl font-bold p-5">
+                  <h2 className="text-[#b68f40] text-center text-3xl font-bold p-5">
                     {item.title}
                   </h2>
                   <p className="text-center pb-10">

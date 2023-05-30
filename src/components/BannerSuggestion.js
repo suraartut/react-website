@@ -4,7 +4,7 @@ const BannerSuggestion = () => {
   return (
     <div className="banner-suggestion bg-gray-100 grid lg:grid-cols-3 py-10">
       <div className="p-5">
-        <h3 className="text-red-600 font-bold text-2xl mb-5">
+        <h3 className="text-[#b68f40] font-bold text-2xl mb-5">
           Lorem ipsum dolor sit amet
         </h3>
         <p>
@@ -15,7 +15,7 @@ const BannerSuggestion = () => {
         </p>
       </div>
       <div className="p-5">
-        <h3 className="text-red-600 font-bold text-2xl mb-5">
+        <h3 className="text-[#b68f40] font-bold text-2xl mb-5">
           Voluptate voluptatibus eligendi
         </h3>
         <p>
@@ -26,7 +26,7 @@ const BannerSuggestion = () => {
         </p>
       </div>
       <div className="p-5">
-        <h3 className="text-red-600 font-bold text-2xl mb-5">
+        <h3 className="text-[#b68f40] font-bold text-2xl mb-5">
           Magni culpa at dolor ipsa
         </h3>
         <p>
