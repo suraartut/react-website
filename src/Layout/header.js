@@ -38,24 +38,29 @@ const Header = () => {
         </ul>
       </nav>
       <nav className="w-full lg:hidden py-5 flex flex-col justify-between">
-        <GiHamburgerMenu
-          className="w-7 h-7 text-[#83bcff] mx-5"
-          onClick={handleClick}
-        />
-        {showMenu && (
-          <div className="mt-5">
-            {HeaderData.map((item) => {
-              return (
-                <div key={item.id} className="px-5 py-2 text-red-600">
-                  <Link to={item.link}>{item.name}</Link>
-                </div>
-              );
-            })}
-            <div className="text-white bg-red-600 hover:bg-red-500 mx-4 px-1 py-3">
-              <Link to="/">İletişime Geç</Link>
+        <div className="flex items-center">
+          <GiHamburgerMenu
+            className="w-7 h-7 text-[#83bcff] mx-5"
+            onClick={handleClick}
+          />
+          {showMenu && (
+            <div className="mt-5">
+              {HeaderData.map((item) => {
+                return (
+                  <div key={item.id} className="px-5 py-2 text-[#4b5358]">
+                    <Link to={item.link}>{item.name}</Link>
+                  </div>
+                );
+              })}
+              <div className="text-white bg-[#4b5358] hover:bg-gray-600 mx-4 px-1 py-3">
+                <Link to="/">İletişime Geç</Link>
+              </div>
             </div>
+          )}
+          <div className="w-full absolute left-[43%]">
+            <img src={Logo} alt="logo" className="w-[60px]" />
           </div>
-        )}
+        </div>
       </nav>
     </header>
   );

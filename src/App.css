@@ -85,3 +85,17 @@ footer .hoverable ul li:after {
   background-position: center;
   background-size: cover;
 }
+
+.about {
+  background-image: url("../src/Images/aboutpage.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.projects {
+  background-image: url("../src/Images/projectspage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}

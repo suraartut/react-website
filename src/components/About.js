@@ -5,15 +5,17 @@ import AboutImage from "../Images/about-image.jpg";
 const About = () => {
   return (
     <div className="">
-      <div className="about-slider w-full h-[440px]">
-        <div className="absolute top-[25%] left-[45%]">
-          <h3 className="text-6xl pb-9 text-white font-semibold">About</h3>
-          <p className="text-xl font-semibold">
-            <span className="text-red-600 mr-3">
+      <div className="about w-full h-[440px]">
+        <div className="absolute lg:top-[25%] top-[22%] lg:left-[45%] left-[22%]">
+          <h3 className="lg:text-6xl text-4xl lg:pb-9 pb-2 text-[#aa8232] font-semibold text-center">
+            About
+          </h3>
+          <p className="lg:text-xl text-lg font-semibold text-center">
+            <span className="text-[#4b5358] mr-3">
               <Link to="/">HOME</Link>
             </span>
-            <span className="text-white text-3xl"> &#62; </span>
-            <span className="text-white ml-3">ABOUT</span>
+            <span className="text-[#4b5358] text-3xl"> &#62; </span>
+            <span className="text-[#aa8232] ml-3">ABOUT</span>
           </p>
         </div>
       </div>

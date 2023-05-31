@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div className="hoverable">
           <h3 className="text-[#83bcff] text-2xl font-semibold lg:pb-3 lg:mt-0 mt-8">
-            Prdoucts
+            Products
           </h3>
           <ul className="footer-icons">
             <li>
