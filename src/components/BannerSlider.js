@@ -28,7 +28,7 @@ const BannerSlider = () => {
           shadowScale: 0.94,
         }}
         autoplay={{
-          delay: 10000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         speed={2000}
@@ -36,7 +36,7 @@ const BannerSlider = () => {
         className="mySwiper w-full"
       >
         <SwiperSlide>
-          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[28%] left-[3%]">
+          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[32%] left-[3%]">
             <h2 className="text-white lg:text-4xl text-2xl">
               Yatırım Danışmanlığı İçin Doğru Yerdesiniz
             </h2>
@@ -60,7 +60,7 @@ const BannerSlider = () => {
           </video>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[28%] left-[3%]">
+          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[32%] left-[3%]">
             <h2 className="text-white lg:text-4xl text-2xl">
               Yatırım Danışmanlığı İçin Doğru Yerdesiniz
             </h2>
@@ -80,7 +80,7 @@ const BannerSlider = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[28%] left-[3%]">
+          <div className="absolute text-center lg:top-[43%] top-[35%] lg:left-[32%] left-[3%]">
             <h2 className="text-black lg:text-4xl text-2xl bg-[white]">
               Yatırım Danışmanlığı İçin Doğru Yerdesiniz
             </h2>
