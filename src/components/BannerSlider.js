@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 
 const BannerSlider = () => {
   return (
-    <div className="banner-slider">
+    <div className="banner-slider lg:mt-0 mt-20">
       <Swiper
         loop={true}
         effect={"cube"}

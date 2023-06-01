@@ -99,3 +99,9 @@ footer .hoverable ul li:after {
   background-size: cover;
   background-position: top;
 }
+
+@media only screen and (max-width: 450px) {
+  header {
+    background-color: #fdc6c6 !important;
+  }
+}
