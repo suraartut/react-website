@@ -54,7 +54,7 @@ header nav ul .nav-link:after {
 }
 
 .banner-discover {
-  background-image: url("Images/background-image.jpg");
+  background-image: url("https://res.cloudinary.com/dvxypv76w/image/upload/v1685712663/background-image_lwcxgt.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -79,22 +79,15 @@ footer .hoverable ul li:after {
   transform-origin: 0% 50%;
 }
 
-.about-slider {
-  background-image: url("Images/background-image.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .about {
-  background-image: url("../src/Images/aboutpage.jpg");
+  background-image: url("https://res.cloudinary.com/dvxypv76w/image/upload/v1685712662/aboutpage_gq38jf.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
 }
 
 .projects {
-  background-image: url("../src/Images/projectspage.jpg");
+  background-image: url("https://res.cloudinary.com/dvxypv76w/image/upload/v1685712668/projectspage_zmlztj.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;

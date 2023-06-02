@@ -1,8 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Slider1 from "../Images/banner-slider1.mp4";
-import Slider2 from "../Images/banner-slider2.jpg";
-import Slider3 from "../Images/banner-slider3.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -56,7 +53,10 @@ const BannerSlider = () => {
             playsInline
             className="w-full lg:h-[100vh] h-[60vh] object-cover object-center"
           >
-            <source type="video/mp4" src={Slider1} />
+            <source
+              type="video/mp4"
+              src="https://res.cloudinary.com/dvxypv76w/video/upload/v1685712670/banner-slider1_vmozxz.mp4"
+            />
           </video>
         </SwiperSlide>
         <SwiperSlide>
@@ -74,7 +74,7 @@ const BannerSlider = () => {
             </div>
           </div>
           <img
-            src={Slider2}
+            src="https://res.cloudinary.com/dvxypv76w/image/upload/v1685712662/banner-slider2_dgyqar.jpg"
             alt="slider"
             className="w-full lg:h-[100vh] h-[60vh] object-cover object-center"
           />
@@ -94,7 +94,7 @@ const BannerSlider = () => {
             </div>
           </div>
           <img
-            src={Slider3}
+            src="https://res.cloudinary.com/dvxypv76w/image/upload/v1685712666/banner-slider3_oikkrf.jpg"
             alt="slider"
             className="w-full lg:h-[100vh] h-[60vh] object-cover object-center"
           />

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AboutImage from "../Images/about-image.jpg";
 
 const About = () => {
   return (
@@ -37,7 +36,12 @@ const About = () => {
           </Link>
         </div>
         <div className="mt-10">
-          <img src={AboutImage} alt="about-image" height={650} width={650} />
+          <img
+            src="https://res.cloudinary.com/dvxypv76w/image/upload/v1685712667/about-image_c3isar.jpg"
+            alt="about-image"
+            height={650}
+            width={650}
+          />
         </div>
       </div>
     </div>

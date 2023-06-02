@@ -1,5 +1,4 @@
 import React from "react";
-import AboutImage from "../Images/about-image.jpg";
 import { Link } from "react-router-dom";
 
 const BannerAbout = () => {
@@ -22,7 +21,12 @@ const BannerAbout = () => {
         </Link>
       </div>
       <div className="lg:mt-0 mt-12">
-        <img src={AboutImage} alt="about-image" height={650} width={650} />
+        <img
+          src="https://res.cloudinary.com/dvxypv76w/image/upload/v1685712667/about-image_c3isar.jpg"
+          alt="about-image"
+          height={650}
+          width={650}
+        />
       </div>
     </div>
   );
